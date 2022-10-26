@@ -1,0 +1,71 @@
+.tag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tagcardcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 44px;
+    align-self: center;
+    justify-content: center;
+}
+
+.tagcard {
+    width: 300px;
+    min-height: 100px;
+    background: #fff;
+    box-shadow: 0px 1px 4px rgba(14, 86, 168, 0.6);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.tagcarddetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding: 20px;
+}
+
+.tagheading {
+  margin: 0;
+  padding: 5px;
+  color: #007a93;
+  text-decoration: none;
+}
+
+.tagheading:hover {
+    cursor: pointer;
+  }
+
+.tagdetails {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.tagsub {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+color: #007a93;
+font-size: 12px;
+}
+
+.tagsubleft {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.tagsubright {
+    padding-left: 20px;
+    display: flex;
+flex-direction: column;
+}

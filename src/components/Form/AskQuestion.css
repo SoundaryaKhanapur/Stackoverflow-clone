@@ -1,0 +1,15 @@
+.publicQuestionHeader {
+  align-items: center;
+  font-family: inherit;
+  color: #007a93;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+@media only screen and (max-width: 640px) {
+  .publicQuestionHeader {
+    padding: 15px;
+    margin-left: 40px;
+    padding-top: 35px;
+  }
+}

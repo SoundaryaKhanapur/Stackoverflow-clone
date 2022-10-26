@@ -1,0 +1,46 @@
+.comment {
+    padding: 5px;
+    width: 400px;
+    border: 1px solid #007a93;
+    margin: 5px 0;
+}
+
+.commentscontainer{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.commentbox{ 
+    padding: 3px;
+    width: 400px;
+    /* border: 1px solid #555657; */
+    /* margin: 10px 0; */
+    border-top: double rgb(199, 199, 199);
+
+}
+
+.comments {
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-size: 12px;
+  }
+
+  .commentuserdetails{
+      color: #64cee4;
+  }
+
+
+@media only screen and (max-width: 640px) { 
+    .comment {
+        padding: 10px;
+        width: 250px;
+    }
+    .commentbox{ 
+     
+        width: 230px;
+   
+    
+    }
+}

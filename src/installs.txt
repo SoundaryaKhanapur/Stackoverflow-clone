@@ -1,0 +1,11 @@
+npm uninstall @daimler/material-ui-theme 
+
+
+npm install --save @cockpit/theme-default@2.0.3
+npm install --save @cockpit/ui-tab-container@4.2.5
+npm install --save @cockpit/ui-breadcrumb@2.0.3
+npm install --save @cockpit/ui-button@1.2.3
+npm install --save @cockpit/ui-checkbox@1.0.4
+npm install --save @cockpit/ui-dropdown-aggregate@0.1.7
+npm install --save @cockpit/ui-header-bar@1.2.3
+npm install --save @cockpit/ui-input-field@0.2.3

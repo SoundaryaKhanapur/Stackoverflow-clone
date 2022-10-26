@@ -1,0 +1,183 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questionhead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 750px;
+}
+
+.questionsheadline {
+  flex: 1 auto;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 40px 20px 0px 20px;
+}
+
+.homecardcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 44px;
+  align-self: center;
+  justify-content: center;
+}
+
+.homecard {
+  width: 700px;
+  min-height: 100px;
+  background: #fff;
+  box-shadow: 0px 1px 4px rgba(14, 86, 168, 0.6);
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.homecard:hover {
+  box-shadow: 0px 40px 50px rgba(17, 64, 165, 0.4);
+  transition: all 0.3s;
+  /* cursor: pointer; */
+}
+
+.homecardleft,
+.homecardright {
+  display: flex;
+  flex-direction: column;
+}
+
+.homecarddetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+  padding: 20px;
+}
+
+.questionheading {
+  margin: 0;
+  color: #007a93;
+  text-decoration: none;
+  cursor: pointer; 
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.numofque {
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 750px;
+  padding-left: 20px;
+}
+
+.questiondetails {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  /* color: #007a93; */
+}
+
+.tagscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.tagbox {
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
+
+.tag {
+  background: rgb(223, 219, 219);
+  min-width: 10px;
+  min-height: 10px;
+  padding: 3px;
+  text-decoration: none;
+  color: #111;
+  /* border-radius: 5px; */
+}
+
+.askquestionbutton {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-items: center;
+  padding: 40px 20px 0px 20px;
+
+}
+
+
+.homecardleft {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  justify-content: center;
+  align-self: center;
+  color: grey;
+}
+
+.views {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+ 
+}
+
+.votes,
+.answers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.asked {
+  padding-top: 5px;
+  font-size: 12px;
+  color: grey;
+}
+
+
+
+
+@media only screen and (max-width: 640px) {
+  .homecardcontainer {
+      padding: 20px;
+  }
+
+  .homecard{
+      width: 390px;
+  }
+
+  .questionhead {
+    width: 400px;
+  }
+  
+  .questionsheadline {
+   
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px 10px 0px 10px;
+  }
+  
+  .askquestionbutton {
+    height: 80px;
+    padding: 20px 10px 0px 10px;
+  
+  }
+
+  .numofque {
+    font-size: 15px;
+    width: 400px;
+    padding-left: 10px;
+  }
+  
+  
+}

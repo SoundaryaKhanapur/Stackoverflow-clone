@@ -1,0 +1,33 @@
+.menuitem {
+    position: relative;
+    font-size: 1.5em;
+    text-align: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menuitem:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.activeitem {
+    font-weight: 200;
+}
+
+.menuitem:hover:before,
+.activeitem:before {
+    visibility: visible;
+    height: 3px;
+}
+

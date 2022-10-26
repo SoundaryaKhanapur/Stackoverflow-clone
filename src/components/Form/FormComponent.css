@@ -1,0 +1,33 @@
+.mainDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100vh;
+  max-height: 100vw;
+  width: 106vh;
+  max-width: 106vw;
+  transform: translate(-50%, -30%);
+}
+.title {
+  width: 100vh;
+  padding-top: 15px;
+}
+.boxStyle {
+  border-color: #b9e5f9;
+  padding: 20px;
+  border-radius: 0px;
+  width: 106vh;
+  max-width: 106vw;
+  border: 0px;
+}
+
+@media only screen and (max-width: 640px) {
+  .boxStyle {
+    margin-left: 170px;
+    border: 0px;
+    max-width: 50vh;
+  }
+  .mainDiv {
+    top: 50%;
+  }
+}

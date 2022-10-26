@@ -1,0 +1,18 @@
+.search {
+    padding: 15px;
+    width: 450px;
+    border: 1px solid #007a93;
+    margin: 15px;
+
+}
+
+
+
+@media only screen and (max-width: 640px) { 
+    .search {
+        padding: 10px;
+        width: 250px;
+    }
+    
+    
+}
